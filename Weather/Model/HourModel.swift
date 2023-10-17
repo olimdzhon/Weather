@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct HourModel: Codable {
+    let time: String
+    let temp_c: Double
+    let condition: ConditionModel
+}

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct ForecastModel: Codable {
+    let forecastday: [ForecastdayModel]
+}

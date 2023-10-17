@@ -11,4 +11,5 @@ struct CityModel {
     let name: String
     let time: String
     let degree: String
+    let hour: [HourModel]
 }

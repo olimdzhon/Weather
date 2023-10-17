@@ -7,7 +7,6 @@
 
 import Foundation
 
-struct HourlyUnitsModel: Codable {
-    let time: String
-    let temperature_2m: String
+struct LocationModel: Codable {
+    let name: String
 }

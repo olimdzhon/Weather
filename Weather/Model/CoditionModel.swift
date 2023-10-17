@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct ConditionModel: Codable {
+    let icon: String
+}
